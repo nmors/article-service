@@ -1,0 +1,19 @@
+{ 
+  "name": "article-service",
+  "version": "1.0.0",
+  "description": "Tech test for ffxblue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Mors: nathan@mors.me",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lokijs": "^1.4.1",
+    "ramda": "^0.22.1"
+  }
+}
