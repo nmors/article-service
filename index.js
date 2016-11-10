@@ -62,7 +62,7 @@ const getAllArticles = P.coroutine(function*(req, res) {
  *  Middleware to Handles any uncaught errors with the express server
  */
 const appErrorHandler = (error, req, res, next) => {
-  //if (!error) return next();
+  if (!error) return next();
   res.status(error.code || 500);
   return res.json(R.pick(['message', 'code'], error))
 }
